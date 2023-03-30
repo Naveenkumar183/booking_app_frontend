@@ -1,0 +1,133 @@
+.header{
+    background-color: #003580;
+    color:white;
+    display:flex;
+    justify-content: center;
+    position:relative;
+}
+ .headercontainer{ 
+    width:100%;
+    max-width:1024px;
+    margin:20px 0px 100px 0px;
+} 
+
+.headercontainer.hotels{
+    margin:20px 0px 0px 0px;
+}
+
+.headerlist{
+ display:flex;
+ gap:40px;
+ margin-bottom:50px;
+}
+
+.headerlistitem{
+   display:flex;
+   align-items: center;
+   gap:10px;
+}
+
+.headerlistitem:hover{
+    cursor: pointer;
+    
+   
+}
+
+.headerlistitem.active{
+    border:1px solid white;
+    padding:10px;
+    border-radius: 20px;
+}
+
+.headerdis{
+    margin:20px 0px;
+}
+.headerbtn{
+    background-color: #0071c2;
+    color:white;
+    font-weight: bold;
+    padding:10px;
+    border:none;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.headerSearch{
+    height:30px;
+    background-color: white;
+    border:3px solid #febb02;
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+    border-radius: 5px;
+    padding: 10px 0px;
+    position: absolute;
+    bottom: -25px;
+    width:100%;
+    max-width: 1024px;
+}
+.headerSearchitem{
+    display:flex ;
+    color:gray;
+   align-items: center;
+   gap:10px;
+}
+
+.headerSearchitem >input{
+    outline:none;
+    border:none;
+    background:none;
+}
+
+.headerbtn1{
+    background-color: #0071c2;
+    color:white;
+    font-weight: bold;
+    padding:10px;
+    border:none;
+    cursor: pointer;
+}
+.date{
+    position: absolute;
+    top:50px;
+    z-index: 2;
+}
+
+.options{
+    position: absolute;
+    top:50px;
+    background-color: white;
+    color: gray;
+    border-radius:5px;
+    z-index: 2;
+    /* border:3px solid #febb02; */
+}
+ .optionitem{
+    display:flex;
+    width:200px;
+    justify-content: space-between;
+     
+    margin:10px;
+ }
+
+ .divoption{
+    display: flex;
+   align-items: center;
+   color:black;
+     font-size:12px;
+   gap:10px;
+ }
+ .optioncountm{
+    border:1px solid #0071c2;
+    cursor: pointer;
+    color:#0071c2;
+    width: 30px;
+    height:30px;
+    background-color: white;
+ }
+ .optioncountm:disabled{
+    cursor:not-allowed;
+ }
+
+
+
